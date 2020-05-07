@@ -12,7 +12,7 @@ const App =()=> {
         selected: {},
     })
 
-    const apikey=29779165
+    const apikey="your api key"
     const apiurl = `http://www.omdbapi.com/?i=tt3896198&apikey=${apikey}`
 
     const handleInput=(e)=> {
